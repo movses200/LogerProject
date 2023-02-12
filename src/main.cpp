@@ -1,11 +1,11 @@
 #include <iostream>
 #include "loger.h"
 
+
 int main(){
+    loger zibilik;
 
-    loger log_1("First\n");
-
-    loger log_2("Second\n");
+    zibilik.log("First\n");
 
     return 0;
 }

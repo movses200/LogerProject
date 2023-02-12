@@ -1,10 +1,18 @@
 #include "loger.h"
 
-loger::loger(std::string mess){
+loger::loger(){};
 
-    worker.open("C:/Users/eganyanc333/Documents/git_repos/LogerProject/InformationList.txt",std::ios::app);
+void loger::log(const std::string_view message){
+
+    worker.open(path,std::ios::app);
+
     if(worker.is_open()){
-        worker << mess;
-        worker.close();
+        worker  << "file: "
+                << location.file_name() << "("
+                << location.line() << ":"
+                << location.column() << ") `"
+                << location.function_name() << "`: "
+                << message << '\n';
+        
     }
 }
