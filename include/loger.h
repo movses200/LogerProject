@@ -2,13 +2,26 @@
 #include <iostream>
 #include <fstream>
 #include <source_location>
-#include <string_view>
 
-class loger{
-    public:
-    loger();
-    void log(const std::string_view message,const std::source_location location = std::source_location::current());
+class loger
+{
 
-    std::string path="C:/Users/eganyanc333/Documents/git_repos/LogerProject/InformationList.txt";
-    std::fstream worker;
+public:
+    enum class Level
+    {
+        Info,
+        Warning,
+        Error,
+    };
+
+public:
+    loger(const std::string &path);
+    void log(Level level, const std::string &message, const std::source_location location = std::source_location::current());
+    ~loger();
+
+private:
+    std::string convert(Level level);
+
+private:
+    std::fstream _worker;
 };

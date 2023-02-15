@@ -1,18 +1,39 @@
 #include "loger.h"
 
-loger::loger(){};
+loger::loger(const std::string& path){
+    _worker.open(path,std::ios::app);
+};
 
-void loger::log(const std::string_view message){
+void loger::log(Level level,const std::string& message,const std::source_location location ){
 
-    worker.open(path,std::ios::app);
-
-    if(worker.is_open()){
-        worker  << "file: "
+    if(_worker.is_open()){
+        _worker <<convert(level)
+                << ": "
+                << "file: "
                 << location.file_name() << "("
                 << location.line() << ":"
                 << location.column() << ") `"
                 << location.function_name() << "`: "
                 << message << '\n';
-        
     }
 }
+
+loger::~loger(){
+    _worker.close();
+}
+
+std::string loger::convert(Level level)
+    {
+        if (level == Level::Info)
+        {
+            return "Info";
+        }
+        else if (level == Level::Warning)
+        {
+            return "Worning";
+        }
+        else
+        {
+            return "Error";
+        }
+    }

@@ -1,0 +1,6 @@
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(8:10) `main`: First log: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(8:10) `main`: First log: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(10:10) `main`: Second log: 
+
