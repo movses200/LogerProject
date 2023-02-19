@@ -1,6 +1,60 @@
-Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(8:10) `main`: First log: 
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(11:10) `main`: main -> 1: 
 
-Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(8:10) `main`: First log: 
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(13:10) `main`: main -> 2: 
 
-Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(10:10) `main`: Second log: 
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(16:14) `operator ()`: first -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(22:14) `operator ()`: second -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(24:14) `operator ()`: second -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(18:14) `operator ()`: first -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(11:10) `main`: main -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(13:10) `main`: main -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(22:14) `operator ()`: second -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(24:14) `operator ()`: second -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(16:14) `operator ()`: first -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(18:14) `operator ()`: first -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(11:10) `main`: main -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(13:10) `main`: main -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(16:14) `operator ()`: first -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(18:14) `operator ()`: first -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(22:14) `operator ()`: second -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(24:14) `operator ()`: second -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(11:10) `main`: main -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(13:10) `main`: main -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(16:14) `operator ()`: first -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(18:14) `operator ()`: first -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(22:14) `operator ()`: second -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(24:14) `operator ()`: second -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(11:10) `main`: main -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(13:10) `main`: main -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(22:14) `operator ()`: second -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(24:14) `operator ()`: second -> 2: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(16:14) `operator ()`: first -> 1: 
+
+Error: file: C:\Users\eganyanc333\Documents\git_repos\LogerProject\src\main.cpp(18:14) `operator ()`: first -> 2: 
 

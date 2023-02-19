@@ -2,11 +2,12 @@
 #include <iostream>
 #include <fstream>
 #include <source_location>
+#include <mutex>
 
 class loger
 {
 
-public:
+    public:
     enum class Level
     {
         Info,
@@ -14,14 +15,15 @@ public:
         Error,
     };
 
-public:
-    loger(const std::string &path);
-    void log(Level level, const std::string &message, const std::source_location location = std::source_location::current());
+    public:
+    loger(const std::string& path);
+    void log(Level level, const std::string& message, const std::source_location location = std::source_location::current());
     ~loger();
 
-private:
+    private:
     std::string convert(Level level);
 
-private:
+    private:
+    std::mutex mtx;
     std::fstream _worker;
 };
